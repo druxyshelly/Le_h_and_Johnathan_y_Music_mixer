@@ -2,3 +2,93 @@
     margin: 0;
     padding: 0;
 }
+
+
+  body {
+    background-image: url("..//images/musicmix_bckgrd.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+  
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+  }
+
+  img, embed, object, video, picture {
+    max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5 {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+input, textarea {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+section h2, section h3, section p {
+    padding-left: 15px;
+}
+
+.spacer {
+    margin-top: 60px;
+}
+
+.txt-spacer {
+    margin-top: 30px;
+}
+
+ /* ---End of General Styles--- */
+
+ .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.logo-container {
+    width: 150px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 150px;
+    height: auto;
+    
+}
+
+.text-partynight {
+    width: 150px;
+    height: auto;
+}
+
+
+/* icon */
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    margin: 0 auto;
+ }
+ 
+
+ .icon {
+    width: 100px; /* Adjust the width of the icons */
+    height: auto; /* This maintains the aspect ratio of the icons */
+ }
+ 
